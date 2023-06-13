@@ -16,5 +16,11 @@ namespace SIServico
         {
             InitializeComponent();
         }
+
+        private void frmRelatOS_Load(object sender, EventArgs e)
+        {
+
+            this.reportViewer1.RefreshReport();
+        }
     }
 }

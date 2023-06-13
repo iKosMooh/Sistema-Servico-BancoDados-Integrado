@@ -42,7 +42,6 @@
             this.btnEntrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.usuarioComboBox = new System.Windows.Forms.ComboBox();
-            this.Test = new System.Windows.Forms.Button();
             nivelAcessoLabel = new System.Windows.Forms.Label();
             senhaLabel = new System.Windows.Forms.Label();
             usuarioLabel1 = new System.Windows.Forms.Label();
@@ -161,16 +160,6 @@
             this.usuarioComboBox.Size = new System.Drawing.Size(207, 33);
             this.usuarioComboBox.TabIndex = 10;
             // 
-            // Test
-            // 
-            this.Test.Location = new System.Drawing.Point(12, 206);
-            this.Test.Name = "Test";
-            this.Test.Size = new System.Drawing.Size(184, 34);
-            this.Test.TabIndex = 11;
-            this.Test.Text = "Testar Cadastro";
-            this.Test.UseVisualStyleBackColor = true;
-            this.Test.Click += new System.EventHandler(this.Test_Click);
-            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -178,7 +167,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(577, 252);
-            this.Controls.Add(this.Test);
             this.Controls.Add(usuarioLabel1);
             this.Controls.Add(this.usuarioComboBox);
             this.Controls.Add(this.btnSair);
@@ -216,7 +204,6 @@
         private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.ComboBox usuarioComboBox;
-        private System.Windows.Forms.Button Test;
     }
 }
 
